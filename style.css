@@ -1,0 +1,43 @@
+.navbar-brand {
+    min-height: 50px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 40;
+
+  }
+
+
+  
+  .col-md-8 {
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom: 5px;
+    outline: 2px solid aquamarine
+    
+  }
+
+  .col-md-4 {
+    padding-top:20px;
+    padding-bottom:10px;
+    outline: 2px solid aquamarine
+    
+  }
+  
+  h5{
+    color:aquamarine;
+    size:20px
+    
+  }
+
+  .navbar{
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: aquamarine;
+  }
+  
+.navbar{
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: aquamarine;
+  }
+  

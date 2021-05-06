@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Columns</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+<!--Navbar-->
+
+  <<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Temp.html"> Max Temperature </a></li>
+            <li><a href="Humidity.html">Humidity</a></li>
+            <li><a href="Cloud.html"> Cloudiness</a></li>
+            <li><a href="Wind.html"> Wind Speed</a></li>
+          </ul>
+        </li>
+        <li><a href="comp.html">Comparison</a></li>
+        <li><a href="Data.html">Data</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+            <!--Image and text for deep look-->
+        
+            <div class="container content">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <h3>Max Temperature</h3>
+                        
+                        <img src="assets/images/Fig2.png" width="100%" alt="temperature">
+                        <p> There is no apparent realationship between latiude and humidity. However, it is interesting to note that the only cities with zero humidity are in the far north.  </p>
+                    </div>
+                </div>
+                <!--Sidebar-->
+                <div class="col-md-4">
+                    <div class="col-md-12">
+                        <h3>Visualizations</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="temp.html"><img class="pic" src="assets/images/Fig1.png" width="100%" alt="Temp"></a>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <a href="humidity.html"><img src="assets/images/Fig2.png" width="100%" alt="Humidity"></a>
+                            </div>
+                        
+                            <div class="col-md-6">
+                                <a href="Cloud.html"><img src="assets/images/Fig3.png" width="100%" alt="Clouds"></a>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <a href="Wind.html"><img src="assets/images/Fig4.png" width="100%" alt="Wind"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+            </div>    
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer font-small footer-dark">
+            <div class="footer-copyright text-center py-3">© Copyright Coding Bootcamp 2019
+            </div>      
+        </footer>
+    </body>
+	
